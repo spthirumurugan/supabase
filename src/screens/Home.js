@@ -46,7 +46,7 @@ const Home = () => {
   }
 
   return (
-    <Grid container spacing={5}>
+    <Grid container spacing={5}  sx={{marginBottom: 5}}>
       {
         students && students.map((student) => {
           return <Grid item lg={4} xl={4} md={4} sm={6} xs={12} key={student.id}>
